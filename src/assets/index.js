@@ -35,6 +35,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import Vscode from "./vscode.jpg";
+import VscodeEditer from "./vscodeediter.png";
+
 export {
   logo,
   shitalLogo,
@@ -69,4 +72,6 @@ export {
   java,
   ml,
   nextjs,
+  Vscode,
+  VscodeEditer,
 };

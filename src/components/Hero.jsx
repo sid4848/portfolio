@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { Vscode, VscodeEditer } from "../assets";
 
 const Hero = () => {
   return (
@@ -24,9 +24,17 @@ const Hero = () => {
             application 3D visuals and user interfaces
           </p>
         </div>
+        <img
+          src={VscodeEditer}
+          alt="vscode"
+          className="xl:block hidden w-2/3 h-2/3 rounded-2xl opacity-100 green-pink-gradient shadow-card"
+        />
       </div>
-
-      <ComputersCanvas />
+      <img
+        src={Vscode}
+        alt="vscode"
+        className="xl:hidden block w-screen h-screen rounded-2xl opacity-10 green-pink-gradient shadow-card"
+      />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
